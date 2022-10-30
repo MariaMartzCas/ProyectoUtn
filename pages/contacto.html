@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>  <a href="../index.html ">Inicio </a></li>
+                <li> <a href="contacto.html">Contacto</a>     </li>
+                <li> <a href="productos.html">Productos</a> </li>
+                <li> <a href="nosotros.html">Nosotros</a> </li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+        <h1>Contactanos</h1>
+        <h2>Formulario de contacto</h2>
+        <form action=""method="">
+            <fieldset>
+                <legend>Datos personales</legend>
+             <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad">
+            <br>
+            <labelFecha for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+            <br>
+            <label for="telefono">Telefono:</label>
+            <input type="number" name="telefono" id="telefono">
+            <br>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Sobre que quieres consultar</legend>
+                <label for="tipo">Compra</label>
+                <input type="radio" name="tipo" id="tipo" value="compra">
+                <label for="tipo">Envio</label>
+                <input type="radio" name="tipo" id="tipo" value="envio">
+                <label for="tipo">Devolucion</label>
+                <input type="radio" name="tipo" id="tipo" value="devolucion">
+                <label for="tipo">Otro</label>
+                <input type="radio" name="tipo" id="tipo" value="otro">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>¿Necesitas subir alguna imagen o foto?</legend>
+                <input type="file" name="imagenes" id="imagenes">
+            </fieldset>
+            <fieldset>
+                <label for="asunto">Asunto:</label>
+            <input type="text" name="asunto" id="asunto">
+            <label for="contenido">Contenido:</label>
+            <textarea name="contenido" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Borrar campos">
+
+
+        </form>
+        </main>
+    <footer></footer>
+</body>
+</html>
+
+
