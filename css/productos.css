@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/456.jpg);
+    /*position:absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/ 
+    color: green;   
+}
+
+.productos{
+    height: 20px;
+    width: 20px;
+}

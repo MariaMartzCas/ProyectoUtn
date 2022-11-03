@@ -45,7 +45,15 @@ header .nav_bar{
     font-weight: bold;
     text-decoration: none;
 }
-.morado_claro{
+/*.morado_claro{
     background-color:greenyellow;
 
+}*/
+/*video*/
+.video{
+   text-align: center;
+}
+/*pie de pagina*/
+.ini{
+    text-align: center;
 }
