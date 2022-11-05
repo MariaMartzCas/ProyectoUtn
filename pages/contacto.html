@@ -4,24 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contacto.css">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>  <a href="../index.html ">Inicio </a></li>
-                <li> <a href="contacto.html">Contacto</a>     </li>
-                <li> <a href="productos.html">Productos</a> </li>
-                <li> <a href="nosotros.html">Nosotros</a> </li>
-            </ul>
-        </nav>
+        <div class="encabezado_sup">
+            <a href="index.html"><img src="../img/logo.png" alt="logo"></a>
+          
+               <form action="" method="" class="barraBusqueda">
+                   <input type="text" name="buscar" placeholder="Buscar ...">
+                   <button type="submit"><i class="fas fa-search"></i></button>
+                           </form>
+           </div>
+           <div class="encabezado_inf">        
+           <nav class="menu">
+               <ul>
+                   <li>  <a class="morado_claro" href="../index.html">Inicio </a></li>
+                   <li> <a class="morado_claro" href="contacto.html">Contacto</a>     </li>
+                   <li> <a class="morado_claro" href="productos.html">Productos</a> </li>
+                   <li> <a class="morado_claro" href="nosotros.html">Nosotros</a> </li>
+               </ul>
+           </nav>
+           <nav class="menu"> 
+               <ul>
+                   <li> <a href=""> Ayuda<i class="fas fa-question-circle"></i></a></li>
+                   <li><a href="">Mi Cuenta<i class="fas fa-user"></i></a></li>
+                   <li><a href="">Mi Carrito<i class="fas fa-shopping-cart"></i></a></li>
+            
+   
+               </ul>
+           </nav>
+       </div>
     </header>
         <main>
         <h1>Contactanos</h1>
         <h2>Formulario de contacto</h2>
-        <form action=""method="">
-            <fieldset>
+        <form class="fondo" action=""method="">
+            <fieldset class="formulario">
                 <legend>Datos personales</legend>
              <label for="nombre">Nombre:</label>
             <input type="text" name="nombre" id="nombre">
@@ -42,7 +65,7 @@
             <input type="email" name="mail" id="mail">
             </fieldset>
             <br>
-            <fieldset>
+            <fieldset class="formulario">
                 <legend>Sobre que quieres consultar</legend>
                 <label for="tipo">Compra</label>
                 <input type="radio" name="tipo" id="tipo" value="compra">
@@ -54,19 +77,19 @@
                 <input type="radio" name="tipo" id="tipo" value="otro">
             </fieldset>
             <br>
-            <fieldset>
+            <fieldset class="formulario">
                 <legend>¿Necesitas subir alguna imagen o foto?</legend>
                 <input type="file" name="imagenes" id="imagenes">
             </fieldset>
-            <fieldset>
+            <fieldset class="formulario">
                 <label for="asunto">Asunto:</label>
             <input type="text" name="asunto" id="asunto">
             <label for="contenido">Contenido:</label>
             <textarea name="contenido" id="" cols="30" rows="10"></textarea>
             </fieldset>
             <br>
-            <input type="submit" value="Enviar">
-            <input type="submit" value="Borrar campos">
+            <input class="boton" type="submit" value="Enviar">
+            <input class="boton" type="submit" value="Borrar campos">
 
 
         </form>
