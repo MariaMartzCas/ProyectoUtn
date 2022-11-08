@@ -7,17 +7,13 @@ header {
     background-color: rgb(27, 214, 121);
     
 }
-/*body{
-    background-image:url(../img/fondo_contact.jpg);
-    position:absolute;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Nunito', sans-serif;
-    
-}*/
 body{
     padding-bottom: 10px;
+}
+/*IMAGEN FONDO DEL FROMULARIO*/
+main{
+    background-image:url(../img/fondo_contact.jpg);
+    opacity: 0.8;
 }
 
 
@@ -40,7 +36,7 @@ body{
 }
 /*barra busqueda*/
 .barraBusqueda{
-    width: 600px;
+    width: 600px;*/
     background-color:white;
     height: 40px;
 }
@@ -88,6 +84,11 @@ padding: 10px;
 .menu ul li a:hover{
     opacity: 1;
 color: rgb(112, 4, 98);
+}
+/*TITULO*/
+.titulo{
+    text-align: center;
+    color: rgb(14, 14, 114);
 }
 /*FORMULARIO*/
 main .formulario{
