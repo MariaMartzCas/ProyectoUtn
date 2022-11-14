@@ -6,16 +6,18 @@
 body{
     font-family: 'Nunito', sans-serif;
 }
+/*header*/
 header {
     background-color: rgb(27, 214, 121);
+    
 }
-
+/*ENCABEZADO*/
 .encabezado_sup{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 200px;
-    padding: 10px;*/
+    padding: 20px;
     /*border-radius:20px;
     display:block;
     margin-left: auto;
@@ -77,26 +79,18 @@ padding: 10px;
     opacity: 1;
 color: rgb(112, 4, 98);
 }
-/*titulos*/
-.titulos{
-    text-align: center;
+/*PALABRAS*/
+H2{
+    color: rgb(124, 14, 119);
+    padding-left: 5px;
 }
-/*imagenes de productos */
-.productos{
-    height: 45%;
+/*FORMULARIO*/
+form fieldset {
+    /*float: left;*/
     width: 45%;
-    display:block;
-    margin-left: auto;
-  margin-right: auto;
-}
-/*imagenes de ventas articulos*/
-.articulos{
-    height: 250px;
-    width: 250px;
-}
-/*productos de coloracion*/
-.coloracion .productos_col{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding-left: 5px;
+   
+  }
+form{
+    padding-left: 10px;
 }

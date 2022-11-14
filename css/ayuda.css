@@ -6,16 +6,18 @@
 body{
     font-family: 'Nunito', sans-serif;
 }
+/*header*/
 header {
     background-color: rgb(27, 214, 121);
+    
 }
-
+/*ENCABEZADO*/
 .encabezado_sup{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 200px;
-    padding: 10px;*/
+    padding: 20px;
     /*border-radius:20px;
     display:block;
     margin-left: auto;
@@ -76,27 +78,4 @@ padding: 10px;
 .menu ul li a:hover{
     opacity: 1;
 color: rgb(112, 4, 98);
-}
-/*titulos*/
-.titulos{
-    text-align: center;
-}
-/*imagenes de productos */
-.productos{
-    height: 45%;
-    width: 45%;
-    display:block;
-    margin-left: auto;
-  margin-right: auto;
-}
-/*imagenes de ventas articulos*/
-.articulos{
-    height: 250px;
-    width: 250px;
-}
-/*productos de coloracion*/
-.coloracion .productos_col{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
