@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 200px;
-    padding: 20px;
+    padding: 10px;
     /*border-radius:20px;
     display:block;
     margin-left: auto;
@@ -45,7 +45,7 @@ header {
 .barraBusqueda button{
     border: none;
     height: 40px;
-    width: 45px;
+    width: 35px;
     background-color: rgb(223, 193, 193);
     cursor: pointer;
     border-left: 1px solid rgb(158, 76, 76);
@@ -91,6 +91,6 @@ form fieldset {
     padding-left: 5px;
    
   }
-form{
+form{ /*revisar esto*/
     padding-left: 10px;
 }

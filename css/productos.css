@@ -77,9 +77,11 @@ padding: 10px;
     opacity: 1;
 color: rgb(112, 4, 98);
 }
-/*titulos*/
-.titulos{
+h2{
+    color: rgb(100, 8, 112);
+    font-size: 45px;
     text-align: center;
+    text-decoration: underline;
 }
 /*imagenes de productos */
 .productos{
@@ -90,12 +92,33 @@ color: rgb(112, 4, 98);
   margin-right: auto;
 }
 /*imagenes de ventas articulos*/
-.articulos{
+.articulos {
     height: 250px;
     width: 250px;
+    box-shadow: 0 5px 10px rgba(100,100,100, 0.7);
+    cursor: pointer;
+
 }
 /*productos de coloracion*/
 .coloracion .productos_col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*productos herramientas*/
+.herramientas .productos_herr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*productos capilares*/
+.capilar .productos_cap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*prductos de oferta*/
+.ofertas .productos_ofer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
