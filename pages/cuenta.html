@@ -4,50 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cuenta.css">
     <title>Cuenta</title>
 </head>
 <body>
     <header>
-        <div>
-            <a href="../index.html"><img class="logo_principal" src="../img/logo.png" alt="logo" ></a>
-        </div>
+        <div class="encabezado_sup">
+            <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+          
+               <form action="" method="" class="barraBusqueda">
+                   <input type="text" name="buscar" placeholder="Buscar ...">
+                   <button type="submit"><i class="fas fa-search"></i></button>
+                           </form>
+           </div>
+           <div class="encabezado_inf">        
+           <nav class="menu">
+               <ul>
+                   <li>  <a class="morado_claro" href="../index.html">Inicio </a></li>
+                   <li> <a class="morado_claro" href="contacto.html">Contacto</a>     </li>
+                   <li> <a class="morado_claro" href="productos.html">Productos</a> </li>
+                   <li> <a class="morado_claro" href="nosotros.html">Nosotros</a> </li>
+               </ul>
+           </nav>
+           <nav class="menu"> 
+               <ul>
+                   <li> <a href="ayuda.html"> Ayuda<i class="fas fa-question-circle"></i></a></li>
+                   <li><a href="cuenta.html">Mi Cuenta<i class="fas fa-user"></i></a></li>
+                   <li><a href="compra.html">Mi Carrito<i class="fas fa-shopping-cart"></i></a></li>
+               </ul>
+           </nav>
+       </div>
     </header>
-    <main>
+    <main> <br>
         <div>
-            <h2>Iniciar sesion</h2>
+            <h2>Iniciar sesion</h2> <br>
             <form action="" method="">
                 <fieldset>
-                <label for="nombre">Nombre usuario</label>
-                <input type="text" name="usuario" id="usuarionomb">
-                <label fo="contraseña">Contraseña </label>
-            <input type="password" name="password" id="contraseña" placeholder="contraseña" minlegth="8" required>
-            <button type="submit">Ingresar</button>    
+                <label for="nombre">Nombre usuario</label> <br>
+                <input type="text" name="usuario" id="usuarionomb"> <br>
+                <label fo="contraseña">Contraseña </label> <br>
+            <input type="password" name="password" id="contraseña" placeholder="contraseña" minlegth="8" required> <br><br>
+            <button type="submit">Ingresar</button>    <br>
                 </fieldset>
             </form>
         </div>
-        <div>
-            <h2>Crear cuenta</h2>         
+        <div> <br>
+            <h2>Crear cuenta</h2>   <br>      
         <form action=""method="">
             <fieldset>
                 <legend>Datos </legend>
-             <label for="nombreapellido">Nombre y apellido:</label>
+             <label for="nombreapellido">Nombre y apellido:</label><br>
             <input type="text" name="nombreapellido" id="nombreApellido">
             <br>
-            <label for="usuario">Nombre de usuario:</label>
+            <label for="usuario">Nombre de usuario:</label><br>
             <input type="text" name="usuario" id="usuarionomb">
             <br>
-            <label for="telefono">Telefono:</label>
+            <label for="telefono">Telefono:</label><br>
             <input type="number" name="telefono" id="telefono">
             <br>
-            <label for="mail">Email:</label>
-            <input type="email" name="mail" id="mail">
-            <label fo="contraseña">Contraseña </label>
-            <input type="password" name="password" id="contraseña" placeholder="contraseña" minlegth="8" required>
+            <label for="mail">Email:</label><br>
+            <input type="email" name="mail" id="mail"><br>
+            <label fo="contraseña">Contraseña </label><br>
+            <input type="password" name="password" id="contraseña" placeholder="contraseña" minlegth="8" required><br><br>
             <button type="submit">Enviar</button>              
             </fieldset>
            </form> 
         </div>
 
-    </main>
+    </main> <br>
+    <footer>
+        <p>Copyright © 1999-2022 MadnessColor S.R.L.</p>
+        <p>C.A.B.A, Argentina</p>
+    </footer>
 </body>
 </html>
+
