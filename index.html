@@ -12,36 +12,47 @@
     <title>Mi primera pagina</title>
 </head>
 <body>
-    <header>
-        <!--<h1 id="principal">MADNESSColor</h1>-->
-        <div class="encabezado_sup">
-          <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-        
-             <form action="" method="" class="barraBusqueda">
-                 <input type="text" name="buscar" placeholder="Buscar ...">
-                 <button type="submit"><i class="fas fa-search"></i></button>
-                         </form>
-         </div>
-         <div class="encabezado_inf">        
-         <nav class="menu">
-             <ul>
-                 <li>  <a class="morado_claro" href="">Inicio </a></li>
-                 <li> <a class="morado_claro" href="pages/contacto.html">Contacto</a>     </li>
-                 <li> <a class="morado_claro" href="pages/productos.html">Productos</a> </li>
-                 <li> <a class="morado_claro" href="pages/nosotros.html">Nosotros</a> </li>
-             </ul>
-         </nav>
-         <nav class="menu"> 
-             <ul>
-                 <li> <a href="pages/ayuda.html"> Ayuda<i class="fas fa-question-circle"></i></a></li>
-                 <li><a href="pages/cuenta.html">Mi Cuenta<i class="fas fa-user"></i></a></li>
-                 <li><a href="pages/compra.html">Mi Carrito<i class="fas fa-shopping-cart"></i></a></li>
-          
- 
-             </ul>
-         </nav>
-     </div>
-     </header>
+    <nav class="navbar bg-danger" id="principal">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="logo" width="300" height="200">
+          </a>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/ayuda.html">Ayuda<i class="fas fa-question-circle"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/cuenta.html">Cuenta<i class="fas fa-user"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/compra.html">Compra<i class="fas fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <main>   
     <h1>Temporada primavera</h1>
     <section> 

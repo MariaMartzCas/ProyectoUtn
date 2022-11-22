@@ -8,36 +8,53 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/nosotros.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Nosotros</title>
 </head>
 <body>
-    <header>
-        <div class="encabezado_sup">
-            <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
-          
-               <form action="" method="" class="barraBusqueda">
-                   <input type="text" name="buscar" placeholder="Buscar ...">
-                   <button type="submit"><i class="fas fa-search"></i></button>
-                           </form>
-           </div>
-           <div class="encabezado_inf">        
-           <nav class="menu">
-               <ul>
-                   <li>  <a class="morado_claro" href="../index.html">Inicio </a></li>
-                   <li> <a class="morado_claro" href="contacto.html">Contacto</a>     </li>
-                   <li> <a class="morado_claro" href="productos.html">Productos</a> </li>
-                   <li> <a class="morado_claro" href="nosotros.html">Nosotros</a> </li>
-               </ul>
-           </nav>
-           <nav class="menu"> 
-               <ul>
-                   <li> <a href="ayuda.html"> Ayuda<i class="fas fa-question-circle"></i></a></li>
-                   <li><a href="cuenta.html">Mi Cuenta<i class="fas fa-user"></i></a></li>
-                   <li><a href="compra.html">Mi Carrito<i class="fas fa-shopping-cart"></i></a></li>
-               </ul>
-           </nav>
-       </div>
-    </header>
+    <nav class="navbar bg-danger" id="principal">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logo.png" alt="logo" width="300" height="200">
+          </a>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ayuda.html">Ayuda<i class="fas fa-question-circle"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cuenta.html">Cuenta<i class="fas fa-user"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="compra.html">Compra<i class="fas fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
         <main>
             <h1>Conocenos</h1>
             <p>Somos un emprendimiento con inicios a fines del año 2018 que su unico objetivo es ofrecer los mejores productos y precios a nuestros clientes.Intentando cada dia mejorar para que la persona que necesite asesoramiento quede satisfecha y nos vuelva a elegir siempre que lo necesite. lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem lorem ipsum dolor lorem ipsum dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas accusamus hic ullam deserunt nobis, fugit dolorum temporibus doloribus cum alias incidunt aut dolore praesentium aliquam velit perspiciatis aperiam repudiandae! Distinctio!</p>
